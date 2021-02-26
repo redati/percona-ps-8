@@ -2,8 +2,5 @@
 
 FROM percona:ps-8
 
-USER root
-
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=America/Sao_Paulo
-RUN echo "America/Sao_Paulo" > /etc/timezone
